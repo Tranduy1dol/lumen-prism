@@ -1,16 +1,20 @@
-# rust-library-template
+# lumen-prism
 
-[![CI](https://github.com/Tranduy1dol/rust-library-template/actions/workflows/ci.yml/badge.svg)](https://github.com/Tranduy1dol/rust-library-template/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/Tranduy1dol/rust-library-template/graph/badge.svg)](https://codecov.io/gh/Tranduy1dol/rust-library-template)
+[![CI](https://github.com/Tranduy1dol/lumen-prism/actions/workflows/ci.yml/badge.svg)](https://github.com/Tranduy1dol/lumen-prism/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/Tranduy1dol/lumen-prism/graph/badge.svg)](https://codecov.io/gh/Tranduy1dol/lumen-prism)
 
-This is a template for creating new Rust crypto libraries for the [zk-pathlearn](https://github.com/Tranduy1dol/zk-pathlearn) project.
+> ✨ Part of the [luminescent](https://github.com/Tranduy1dol/luminescent) project — *Illuminating the path to zero-knowledge*
+
+A secure Multi-Party Computation (MPC) framework combining cryptographic primitives for distributed trust.
 
 > ⚠️ **Educational Purpose Only**: This library is for learning purposes and is **NOT production-ready**.
 
-## Features
+## Features (Planned)
 
-- Feature 1
-- Feature 2
+- High-performance networking
+- Lattice-based commitment schemes for post-quantum security
+- Zero-Knowledge Proofs for verifiable computation
+- Threshold cryptography for distributed trust
 
 ## Installation
 
@@ -18,26 +22,17 @@ Add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rust-library-template = { git = "https://github.com/Tranduy1dol/rust-library-template" }
+lumen-prism = { git = "https://github.com/Tranduy1dol/lumen-prism" }
 ```
 
 ## Usage
 
 ```rust
-use rust_library_template::*;
+use lumen_prism::*;
 
 fn main() {
     // Your code here
 }
-```
-
-## Architecture
-
-```
-src/
-├── lib.rs          # Main library entry point
-└── lib/
-    └── mod.rs      # Core module
 ```
 
 ## Development
@@ -58,7 +53,7 @@ cargo clippy
 
 ## Related Projects
 
-This library is part of the [zk-pathlearn](https://github.com/Tranduy1dol/zk-pathlearn) learning monorepo for Zero-Knowledge Proofs.
+This library is part of the [luminescent](https://github.com/Tranduy1dol/luminescent) learning monorepo for Zero-Knowledge Proofs.
 
 ## License
 
